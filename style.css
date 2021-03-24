@@ -1,0 +1,392 @@
+/* GENERAL */ 
+
+:root{
+    --GR:#e8e8e8;
+    --WH:#ffffff;
+    --TQ:#32e0c4;
+    --BK:#33313b;
+}
+
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    margin: 0px;
+}
+
+/* COLOUR */
+
+/* Content 1 */
+nav, footer{
+    background: var(--BK);
+}
+
+/* Content 2 */
+header, #skills, #training, #contact{
+    background: var(--GR);
+} 
+
+/*Content 3 */
+#about, #portfolio{
+    background: black;
+}
+
+/* --------- NAVBAR --------- */
+
+#navMain{
+    padding: 25px;
+}
+
+.homeSd{
+    font-size: 22px;
+    border-radius: 100px 10px / 65px;
+    padding: 8px;
+    border: 2px solid;
+}
+
+.homeSd:hover{
+    color: var(--WH);
+}
+
+.linkNav{
+    font-size: 19px;
+}
+
+.linkNav:hover{
+    color: var(--WH); 
+}
+
+.homeSd, .linkNav{
+    color: var(--TQ);
+}
+
+.navbar-nav{
+    margin-left: auto;
+}
+
+.navBtn{
+    background: var(--TQ);
+}
+
+.navIcon:hover{
+    color: var(--WH);
+}
+
+/* --------- HEADER --------- */
+
+header{
+    padding: 150px 0px;
+}
+
+.faceSd{
+    width: 300px;
+    height: 380px;
+    border-radius: 100% 0% / 57% 31% 69% 43%;
+    box-shadow: 14px 7px 5px 1px;
+}
+
+@media screen and (max-width: 330px){
+    .faceSd{
+        width: 260px;
+        height: 330px;
+        border-radius: 100% 0% / 57% 31% 69% 43%;
+        box-shadow: 14px 7px 5px 1px;
+    }
+}
+
+.divTitleSd{
+    margin-top: 20px;
+}
+
+.titleSd{
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-shadow: 4px 4px 6px;
+}
+
+@media screen and (max-width: 425px){
+    .titleSd{
+        font-size: 26px;
+    }
+}
+
+
+/* --------- CONTENT --------- */
+
+/* About */
+
+#about{
+    color: var(--TQ);
+    padding: 220px 0px;
+}
+
+.aboutText{
+    margin: 32px 0px;
+}
+
+@media screen and (max-width: 768px){
+    .aboutText{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .aboutText{
+        text-align: left;
+    }
+}
+
+.aboutTitle{
+    text-transform: uppercase;
+    touch-action: auto;
+}
+
+@media screen and (max-width: 425px){
+    .aboutTitle{
+        font-size: 29px;
+    }
+}
+
+.aboutTP1{
+    color: var(--WH);
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+/* Skills */
+
+#skills{
+    padding: 250px 0px;
+}
+
+.skillsTitle{
+    text-transform: uppercase;
+    text-shadow: -2px 2px 4px;
+    margin-bottom: 70px;
+}
+
+@media screen and (max-width: 425px){
+    .skillsTitle{
+        font-size: 29px;
+    }
+}
+
+/* Portfolio */
+
+#portfolio{
+    color: var(--TQ);
+    padding: 170px 0px;
+}
+
+.portTitle{
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 425px){
+    .portTitle{
+        font-size: 29px;
+    }
+}
+
+.portSectionOne, .portSectionTwo{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: var(--WH);
+    margin: 23px 0px;
+}
+
+.borderOne, .borderTwo{
+    border: 2px solid var(--TQ);
+    border-radius: 20px;
+    padding: 50px;
+}
+
+.borderTwo{
+    margin-top: 70px;
+}
+
+.portCard{
+    background: black;
+}
+
+.portImg{
+    border-radius: 50%;
+    border: 3px solid var(--TQ);
+    transition: 0.3s ease-in-out;
+}
+
+.portImg:hover{
+    transform: scale(1.1); 
+}
+
+.portText{
+    text-align: center;
+}
+
+@media screen and (max-width: 425px){
+    .portText{
+        text-align: left;
+    }
+}
+
+.snDivOne{
+    margin-top: 30px;
+}
+
+/* Training */
+
+#training{
+    padding: 110px 0px;
+}
+
+.trainingTitle{
+    text-transform: uppercase;
+    text-shadow: -2px 2px 4px;
+}
+
+@media screen and (max-width: 425px){
+    .trainingTitle{
+        font-size: 29px;
+    }
+}
+
+#cvBtn{
+    background: var(--TQ);
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out; 
+}
+
+#cvBtn:hover{
+    color: var(--WH);
+    transform: scale(1.1); 
+    font-weight: bolder;
+}
+
+.trainingCard{
+    border-radius: 30px;
+    border: 2px solid black;
+    background: var(--WH);
+    transition: 0.3s ease-in-out; 
+}
+
+.trainingCard:hover{
+    background: black;
+    color: var(--TQ);
+    transform: scale(1.1); 
+}
+
+.stCard{
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.forLinks a{
+    color: var(--TQ);
+}
+
+.forLinks a:hover{
+    color: var(--WH);
+    font-weight: bolder;
+}
+
+/* Contact */ 
+
+#contact{
+    color: var(--TQ);
+    padding: 290px 0px;
+    background: black;
+}
+
+.contactTitle{
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: var(--TQ);
+}
+
+.divider{
+    height: 2px;
+    width: 100px;
+    background: white;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.textContact{
+    margin: 35px 0px;
+    color: var(--TQ);
+}
+
+@media screen and (max-width: 528px){
+    .textContact{
+        text-align: center;
+    }
+}
+
+.snDivTwo{
+    margin-top: 60px;
+}
+
+.snIcon{
+    color: white;
+    transition: 0.2s ease-in-out;  
+}
+
+.snIcon:hover{
+    color: var(--TQ);
+    transform: scale(1.1);
+}
+
+.contactMe{
+    font-weight: bolder;
+    text-decoration: underline;
+    text-transform: uppercase;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.contactBtn{
+    background: var(--TQ);
+    color: black;
+    font-weight: bolder;
+    border-radius: 30px;
+    transition: 0.3s ease-in-out; 
+}
+
+.contactBtn:hover{
+    color: var(--WH);
+    font-weight: bolder;
+    transform: scale(1.1); 
+}
+
+form{
+    padding-top: 40px;
+}
+
+.comments
+{
+    text-align: center;
+    font-style: italic;
+    color: red;
+}
+
+.thank-you{
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: black;
+}
+
+/* FOOTER */
+
+footer{
+    color: var(--TQ);
+}
