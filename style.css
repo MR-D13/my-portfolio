@@ -157,7 +157,7 @@ header{
 /* Skills */
 
 #skills{
-    padding: 250px 0px;
+    padding: 120px 0px;
 }
 
 .skillsTitle{
@@ -170,6 +170,12 @@ header{
     .skillsTitle{
         font-size: 29px;
     }
+}
+
+.skillsMinTitle{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 /* Portfolio */
