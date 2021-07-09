@@ -305,28 +305,24 @@ header{
 /* Contact */ 
 
 #contact{
-    color: var(--TQ);
     padding: 290px 0px;
-    background: black;
 }
 
 .contactTitle{
     text-transform: uppercase;
     letter-spacing: 5px;
-    color: var(--TQ);
 }
 
 .divider{
     height: 2px;
     width: 100px;
-    background: white;
+    background: var(--TQ);
     margin: 0 auto;
     margin-bottom: 20px;
 }
 
 .textContact{
     margin: 35px 0px;
-    color: var(--TQ);
 }
 
 @media screen and (max-width: 528px){
@@ -340,7 +336,7 @@ header{
 }
 
 .snIcon{
-    color: white;
+    color: black;
     transition: 0.2s ease-in-out;  
 }
 
